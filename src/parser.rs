@@ -4,7 +4,6 @@ use std::{
 };
 
 // Archlinux explicitly installed package parser
-// Copyright (C) 2024 Panagiotis
 
 pub fn get_installed_pkgs() -> Vec<String> {
     let cmd = Command::new("pacman").args(["-Qett"]).output();
