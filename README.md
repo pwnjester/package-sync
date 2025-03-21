@@ -1,4 +1,4 @@
-# PkgSync
+# Package Sync
 > **todo:** add a video or smth here
 
 A program to help you keep track of packages explicitly installed in your system intuitively. Works on Arch Linux.
