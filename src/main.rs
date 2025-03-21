@@ -7,7 +7,6 @@ mod sanitychecks;
 mod sync;
 
 // PkgSync entry :)
-// Copyright (C) 2024 Panagiotis
 
 fn main() {
     sanitychecks::arch(); // pacman, yay
