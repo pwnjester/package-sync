@@ -5,7 +5,6 @@ use std::path::Path;
 use std::{env, fs};
 
 // JSON config helpers
-// Copyright (C) 2024 Panagiotis
 
 #[derive(Serialize, Deserialize)]
 pub struct Category {
