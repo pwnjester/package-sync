@@ -2,7 +2,6 @@ use crate::{config, parser, sanitychecks};
 use std::process::Command;
 
 // Sync the config file & backwards
-// Copyright (C) 2024 Panagiotis
 
 pub fn system_to_config() {
     config::prepare();
