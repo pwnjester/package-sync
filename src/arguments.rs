@@ -1,7 +1,6 @@
 use std::{env, process::exit};
 
 // Argv parser & multiple text-only implementations
-// Copyright (C) 2024 Panagiotis
 
 pub fn help() {
     println!(
