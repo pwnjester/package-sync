@@ -2,7 +2,6 @@ use inquire::Select;
 use std::process::{exit, Command};
 
 // Sanity checks & interfaces
-// Copyright (C) 2024 Panagiotis
 
 pub fn arch() {
     if Command::new("pacman").args(["--version"]).output().is_err() {
